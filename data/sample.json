@@ -1,0 +1,6 @@
+{
+  "defender_enabled": true,
+  "firewall_enabled": true,
+  "failed_logons": 12,
+  "patch_age_days": 7
+}

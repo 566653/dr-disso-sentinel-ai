@@ -1,0 +1,30 @@
+[
+  {
+    "field": "defender_enabled",
+    "op": "eq",
+    "value": false,
+    "severity": "critical",
+    "message": "Antivirus protection disabled"
+  },
+  {
+    "field": "firewall_enabled",
+    "op": "eq",
+    "value": false,
+    "severity": "high",
+    "message": "Firewall disabled"
+  },
+  {
+    "field": "failed_logons",
+    "op": "gt",
+    "value": 10,
+    "severity": "medium",
+    "message": "Repeated failed sign-ins"
+  },
+  {
+    "field": "patch_age_days",
+    "op": "gt",
+    "value": 30,
+    "severity": "high",
+    "message": "Patches overdue"
+  }
+]
